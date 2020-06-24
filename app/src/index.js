@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 
 //Imports after install dependencies 
 import { Provider } from 'react-redux';
@@ -9,6 +8,7 @@ import logger from 'redux-logger';
 import thunk from 'redux-thunk';
 import rootReducer from './store/reducers/';
 
+import App from './App';
 // creating store
 const store = createStore(rootReducer, applyMiddleware(thunk, logger));
 

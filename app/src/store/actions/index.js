@@ -9,7 +9,7 @@ export const fetchCharacters = () => {
   return (dispatch) => {
     dispatch({ type: FETCH_CHARACTERS_START });
     axios
-      .get('https://rickyandmortyapi.com/api/character')
+      .get("https://rickyandmortyapi.com/api/character")
       .then((res) => {
         console.log(res.data.results);
         dispatch({ type: FETCH_CHARACTERS_SUCCESS, payload: res.data.results });
