@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
     <h1>REACT_REDUX_APP/Rick and Morty</h1>
-    <Characters/>
+    <Characters />
     </div>
   );
 }
