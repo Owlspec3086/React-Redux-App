@@ -9,7 +9,7 @@ import Characters from './components/Characters';
 function App() {
   return (
     <div className="App">
-    <h1>REACT_REDUX_APP/Rick and Morty</h1>
+    <h1>Rick and Morty</h1>
     <Characters />
     </div>
   );

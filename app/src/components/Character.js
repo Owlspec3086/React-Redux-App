@@ -4,10 +4,11 @@ const Character = ({ character }) => {
   return (
     <div className='character-card'>
       <img src={character.image} alt='' />
-      <h3>{character.name}</h3>
-      <h4>{character.species}</h4>
+      <h4>{character.name}</h4>
+      <h5> {character.species} </h5>
     </div>
   );
 };
 
 export default Character;
+

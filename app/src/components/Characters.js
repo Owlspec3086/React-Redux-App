@@ -12,7 +12,7 @@ const Characters = ({ fetchCharacters, characters, isFetching }) => {
     <div>
       {isFetching && <h4>Getting the data one second .....</h4>}
       <div className='character-container'>
-        {characters.map(character => {
+        {characters.map((character) => {
           return <Character key={character.id} character={character} />;
         })}
       </div>
